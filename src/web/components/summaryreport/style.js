@@ -92,15 +92,15 @@ export const SummaryStyle = styled.div`
     }
  }
 
-//  .activeC{
-//         background-color: orange;
-//         border-radius: 50px;
-//         // padding: 10px;
-//  }
+ .activeC{
+        // background-color: orange;
+        border-radius: 50px;
+         padding: 5px;
+ }
  .activeC:hover {
     background-color: orange;
-    border-radius: 50px;
-    padding:5px;
+     border-radius: 50px;
+    // padding:5px;
   }
 //   .activeB:hover::before {
    
