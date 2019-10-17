@@ -110,6 +110,41 @@ export const SummaryStyle = styled.div`
 //     border-top: 10px red solid;
 //     content: '';
 //   }
+
+.activeCard{
+
+    min-height: 150px;
+    border-left: solid 11px orangered;
+    .inActionCardTitle{
+        font-size:22px;
+        margin:0px 0px 20px 0px;
+        display:flex;
+    }
+    .viewDetails{
+        text-align:justify;
+    }
+    .actionButtons{
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height:150px;
+    i{
+        // color: white;
+         margin-right:15px;
+        font-size: 28px;
+        }
+        i:nth-child(1){
+            color: green;
+        }
+        i:nth-child(2){
+            color: orangered;
+        }
+        i:nth-child(3){
+            color: red;
+        }
+    }
+}
  @media only screen and (min-width: 1823px) {
     padding:0px 60px 0px 60px;
 }

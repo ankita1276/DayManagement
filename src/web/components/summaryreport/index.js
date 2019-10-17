@@ -4,7 +4,7 @@ import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Grid from '@material-ui/core/Grid';
 import CardHeader from '@material-ui/core/CardHeader';
-import Avatar from '@material-ui/core/Avatar';
+import Typography from '@material-ui/core/Typography';
 import IconButton from '@material-ui/core/IconButton';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import LinearProgress from '@material-ui/core/LinearProgress';
@@ -24,48 +24,48 @@ class SummaryReport extends Component {
                             <Card className="cardCalender">
                                 <Grid container className="calenderContainer" spacing={5}>
                                     <Grid className="activeB" item xs={1.5}>
-                                        <div className="activeC">                                        
-                                        <div className="calenderDay">Mon</div>
-                                        <div className="calenderDate">12</div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Mon</div>
+                                            <div className="calenderDate">12</div>
                                         </div>
 
                                     </Grid>
 
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Tue</div>
-                                        <div className="calenderDate active">9</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Tue</div>
+                                            <div className="calenderDate active">9</div>
+                                        </div>
                                     </Grid>
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Wed</div>
-                                        <div className="calenderDate">22</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Wed</div>
+                                            <div className="calenderDate">22</div>
+                                        </div>
                                     </Grid>
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Thur</div>
-                                        <div className="calenderDate">12</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Thur</div>
+                                            <div className="calenderDate">12</div>
+                                        </div>
                                     </Grid>
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Fri</div>
-                                        <div className="calenderDate">24</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Fri</div>
+                                            <div className="calenderDate">24</div>
+                                        </div>
                                     </Grid>
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Sat</div>
-                                        <div className="calenderDate">12</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Sat</div>
+                                            <div className="calenderDate">12</div>
+                                        </div>
                                     </Grid>
                                     <Grid item xs={1.5}>
-                                    <div className="activeC"> 
-                                        <div className="calenderDay">Sun</div>
-                                        <div className="calenderDate">12</div>
-                                    </div>
+                                        <div className="activeC">
+                                            <div className="calenderDay">Sun</div>
+                                            <div className="calenderDate">12</div>
+                                        </div>
                                     </Grid>
 
                                 </Grid>
@@ -121,11 +121,25 @@ class SummaryReport extends Component {
                         In Action
                </div>
                     <Grid container >
-                        <Grid xs={6} className="cardsTitle">
-                            <Card className="card"></Card>
+                        <Grid xs={12} >
+                            <Card className="card activeCard">
+                                
+                                <Grid container >
+                                <Grid xs={10} className="viewDetails" textAlign="justify">
+                                <div className="inActionCardTitle">Shrimp and Chorizo Paella</div>
+                                   <div> This impressive paella is a perfect party dish and a fun meal to cook together with your
+                                    guests. Add 1 cup of frozen peas along with the mussels, if you like.</div>
+                                </Grid>
+                                <Grid xs={2} className="actionButtons" textAlign="justify">
+                                {/* <i class="material-icons">done</i>
+                                <i class="material-icons">cancel</i>
+                                <i class="material-icons">delete</i> */}
+                                </Grid>
+                                </Grid>
+                            </Card>
+
                         </Grid>
-                        <Grid xs={6} className="cardsTitle">
-                        </Grid>
+
                     </Grid>
 
                 </div>
