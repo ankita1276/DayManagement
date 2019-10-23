@@ -9,7 +9,6 @@ import Grid from '@material-ui/core/Grid';
 class Dashboard extends Component {
     render() {
         return (
-
             <div>
                 <Grid container>
                     <Grid item xs={2} xl={2}>
@@ -22,8 +21,6 @@ class Dashboard extends Component {
                         <RightPanel></RightPanel>
                     </Grid>
                 </Grid>
-
-
             </div>
         );
     }

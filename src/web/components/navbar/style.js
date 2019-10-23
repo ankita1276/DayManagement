@@ -18,23 +18,37 @@ export const NavbarStyle = styled.div`
         font-size:18px;
         padding:0px;
         li{
-            display:flex;
-            padding:15px;
-            text-align:left;
-            margin-left:15%;
-            cursor:pointer;
-            i{
-                padding-right:20px
+            .active{
+                color:#20233f;
+                background-color: #f8f6ff;
+                color:#20233f;
+                border-top-left-radius:50px;
+                border-bottom-left-radius:50px;
+               
             }
-
+            a{
+                display:flex;
+                padding:15px;
+                text-align:left;
+                margin-left:15%;
+                cursor:pointer;
+                color: white;
+                text-decoration: none;
+                display: flex;
+                :active{
+                    color:#20233f;
+                }
+                i{
+                    padding-right:20px
+                }
+}
         }
-        li:nth-child(1){
-            background-color: #f8f6ff;
-            color:#20233f;
-        
-            border-top-left-radius:50px;
-            border-bottom-left-radius:50px;
-        }
+        // li:nth-child(1){
+        //     background-color: #f8f6ff;
+        //     color:#20233f;
+        //     border-top-left-radius:50px;
+        //     border-bottom-left-radius:50px;
+        // }
     }
  }
  .navFooter{

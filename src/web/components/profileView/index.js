@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Avatar from '@material-ui/core/Avatar';
-import { ProfileViewStyle } from './style';
 
 class ProfileView extends Component {
 
